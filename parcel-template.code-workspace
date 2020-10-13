@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.DS_Store": true,
+			"**/.git": false,
+			"**/.sass-cache": true,
+			"**/.yarn-cache": true
+		},
+		"editor.renderWhitespace": "all",
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": true,
+		"eslint.enable": true,
+		"extensions.ignoreRecommendations": false,
+		"javascript.validate.enable": false,
+		"javascript.updateImportsOnFileMove.enabled": "never",
+		"editor.largeFileOptimizations": false,
+		"liquid.format": true
+	}
+}

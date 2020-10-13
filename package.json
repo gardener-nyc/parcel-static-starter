@@ -1,0 +1,20 @@
+{
+  "name": "parcel-static-template",
+  "author": "Gardener NYC LLC <https://gardener.nyc>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "dev": "parcel *.html",
+    "start": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "dependencies": {
+    "eslint": "^7.11.0",
+    "magic-tricks": "^0.2.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
