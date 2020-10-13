@@ -6,9 +6,9 @@
   "license": "none",
   "private": true,
   "scripts": {
-    "dev": "parcel *.html",
-    "start": "parcel *.html",
-    "build": "parcel build *.html"
+    "dev": "parcel src/*.html",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html"
   },
   "dependencies": {
     "eslint": "^7.11.0",
