@@ -5,17 +5,23 @@
   "main": "index.js",
   "license": "none",
   "private": true,
+  "sass": {
+    "includePaths": ["./node_modules"]
+  },
   "scripts": {
-    "dev": "parcel src/*.html",
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html"
+    "start": "parcel src/*.html public/**/*",
+    "build": "parcel build src/*.html public/**/*"
   },
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.11.0",
-    "magic-tricks": "^0.2.1"
+    "eslint-plugin-react": "^7.21.4",
+    "magic-tricks": "^0.2.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4"
   }
 }
