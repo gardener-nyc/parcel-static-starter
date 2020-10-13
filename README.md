@@ -19,6 +19,3 @@ $ yarn start
 
 ## Deployments
 Push code to `main`. Netlify is watching this branch and will deploy any code changes.
-
-## Environment Variables
-All environment variables found in `.env.example` should be included in the Netlify admin panel as environment variables.
