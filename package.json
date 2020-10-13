@@ -11,6 +11,7 @@
     "build": "parcel build src/*.html"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "eslint": "^7.11.0",
     "magic-tricks": "^0.2.1"
   },
