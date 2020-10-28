@@ -6,7 +6,9 @@
   "license": "none",
   "private": true,
   "sass": {
-    "includePaths": ["./node_modules"]
+    "includePaths": [
+      "./node_modules"
+    ]
   },
   "scripts": {
     "start": "parcel src/*.html public/**/*",
@@ -18,6 +20,7 @@
     "eslint-plugin-react": "^7.21.4",
     "magic-tricks": "^0.2.1",
     "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2",
     "sass": "^1.27.0"
   },
   "devDependencies": {
