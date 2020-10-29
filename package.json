@@ -6,16 +6,19 @@
   "license": "none",
   "private": true,
   "sass": {
-    "includePaths": ["./node_modules"]
+    "includePaths": [
+      "./node_modules"
+    ]
   },
   "scripts": {
-    "start": "parcel src/*.html public/**/*",
+    "start": "node run-parcel.js",
     "build": "parcel build src/*.html public/**/*"
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.11.0",
     "eslint-plugin-react": "^7.21.4",
+    "express": "^4.17.1",
     "magic-tricks": "^0.2.1",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.27.0"

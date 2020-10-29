@@ -19,6 +19,8 @@
 		"javascript.validate.enable": false,
 		"javascript.updateImportsOnFileMove.enabled": "never",
 		"editor.largeFileOptimizations": false,
-		"liquid.format": true
+		"liquid.format": true,
+		"prettier.enable": false,
+		"editor.formatOnSave": false
 	}
 }
