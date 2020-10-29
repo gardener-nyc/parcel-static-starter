@@ -20,6 +20,7 @@
     "eslint-plugin-react": "^7.21.4",
     "express": "^4.17.1",
     "magic-tricks": "^0.2.1",
+    "operator": "^1.8.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.27.0"
   },
