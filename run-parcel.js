@@ -3,7 +3,8 @@ const express = require('express');
 
 const bundler = new Bundler([
 	'src/index.html',
-	'src/careers.html'
+	// 'src/example.html'
+	// 'src/example.html'
 ]);
 
 const app = express();
