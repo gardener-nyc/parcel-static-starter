@@ -1,0 +1,7 @@
+#router {
+	transition: opacity 300ms ease;
+
+	&.loading {
+		opacity: 0;
+	}
+}
