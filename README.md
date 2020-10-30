@@ -17,5 +17,17 @@ $ yarn install
 $ yarn start
 ```
 
+## Multiple Entrypoints
+
+When creating multiple pages, append each entry point to the `Bundler()` constructor in `run-parcel.js`
+
+```
+const bundler = new Bundler([
+	'src/index.html',
+	'src/example.html',
+	'src/example.html',
+]);
+```
+
 ## Deployments
 Push code to `main`. Netlify is watching this branch and will deploy any code changes.

@@ -51,7 +51,13 @@
 @import '~magic-tricks/sass/components/visibility';
 
 //
-// === Custom Components ===
+// === Globals ===
 //
 
 @import './global/typography';
+
+//
+// === Custom Components ===
+//
+
+@import './components/router';
