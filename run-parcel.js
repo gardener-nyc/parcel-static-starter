@@ -5,6 +5,8 @@ const bundler = new Bundler(['src/index.html', 'src/*.html']);
 
 const app = express();
 
+app.use(express.static('public'));
+
 app.get('/', (req, res, next) => {
 	req.url = '/index.html';
 	app._router.handle(req, res, next);
